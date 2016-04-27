@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-    <!-- util相关 -->
-    <string name="appmanage_can_not_open_toast">"该应用无法打开"</string>
-    <string name="browser_url">http://m.baidu.com</string>
-    <string name="update_item_today">今天升级</string>
-    <string name="as_last_update_time">上次刷新：%1s</string>
-    <string name="update_item_just_now">刚刚</string>
-</resources>

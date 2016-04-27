@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<resources>
-
-    <!-- util相关 -->
-    <dimen name="main_clean_size_25">25dip</dimen>
-
-</resources>
