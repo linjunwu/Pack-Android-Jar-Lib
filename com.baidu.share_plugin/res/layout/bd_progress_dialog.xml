@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/progress_dialog_bg"
+    >
+	    <LinearLayout android:id="@+id/body"
+	        android:orientation="horizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:gravity="center_vertical|left"
+	        android:paddingLeft="16dip"
+	        android:paddingTop="18dip"
+	        android:paddingRight="16dip"
+	        android:paddingBottom="18dip">
+	
+	        <ProgressBar android:id="@+id/ProgressT"
+	            android:indeterminateDrawable="@anim/webview_loading_progressbar_anim"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	             />
+	
+			<LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+			    android:orientation="vertical"
+			    android:gravity="center_vertical|left"
+			    android:layout_marginLeft="14dp"
+			    >
+		        <TextView android:id="@+id/txt_message"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:textSize="18dp" android:textColor="#FFFFFFFF"
+		             />
+			    <TextView android:id="@+id/txt_progress_message"
+		                android:layout_width="wrap_content"
+		                android:layout_height="wrap_content"
+		                android:textSize="14dp" android:textColor="#FFFFFFFF"
+		                android:layout_marginTop="2dp"
+		                android:visibility="gone"
+		                 />
+		    </LinearLayout>
+	    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="libui_titlebar_bg">#efeff0</color>
+    <color name="libui_common_btn_pressed">#f2f2f2</color>
+    <drawable name="libui_transparent_background">#00000000</drawable>
+    <color name="libui_title_search_pressed">#065db7</color>
+
+    <color name="libui_dialog_title_normal_color">#3898ff</color>
+    <color name="libui_bottom_dialog_title_color">#333333</color>
+
+    <!-- common color -->
+    <color name="libui_custom_white">#FFFFFF</color>
+    <color name="libui_custom_light_gray">#999999</color>
+
+    <!-- 圆形进度条颜色值 -->
+    <color name="libui_progress_first">#70be31</color>
+    <color name="libui_progress_second">#1e95ff</color>
+
+    <!-- 6.0首页新圆形进度条颜色值 -->
+    <color name="libui_common_progress_first">#74b000</color>
+    <color name="libui_common_progress_second">#4da9fc</color>
+
+    <color name="libui_local_sort_selcet_color">#7cb903</color>
+    <color name="libui_primary_text_on_light">#666666</color>
+
+    <!-- 评论tag热度环颜色 -->
+    <color name="tag_heat_annular_color_bg">#f0f0f0</color>
+    <color name="tag_heat_annular_color1">#78c54c</color>
+</resources>

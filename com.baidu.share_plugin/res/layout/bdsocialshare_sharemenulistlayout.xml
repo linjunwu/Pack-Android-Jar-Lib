@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/sharemenulistrootlayout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#92000000" >
+    <LinearLayout
+        android:id="@+id/sharemenulistlinearlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        android:orientation="vertical" >
+        <ListView
+            android:id="@+id/sharemenulistview"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" 
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="15dp"/>
+        <RelativeLayout
+            android:id="@+id/sharemenulistcancelbar"
+            android:layout_width="fill_parent"
+            android:layout_height="65dp" >
+            <Button
+                android:id="@+id/sharemenulistcancelbutton"
+                android:layout_width="fill_parent"
+                android:layout_height="44dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:textSize="15dp" />
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>
